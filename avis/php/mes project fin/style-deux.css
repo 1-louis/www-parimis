@@ -1,0 +1,253 @@
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/* ********+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++******  POUR SMARTPHONE  *********++++++++++++++++++++++++++++++++++*************/ 
+@media screen and (max-width:991.99px){
+a.fa-search {
+    margin-top: 5px;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    text-indent: 22px;
+    display: inline-block;
+}
+a.Rechercher {
+    float: left;
+    border-radius: solid 25%;
+    text-indent: 22px;
+    text-align: center;
+    margin: 7px;
+}
+input {
+    border-radius: 50px;
+}
+/*le burger menu*/
+nav.navmobil {
+        position: fixed;
+        top: 130px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0);
+        display: block;
+        text-transform: uppercase;
+ }
+.togglemenu {
+    width: 100%;
+    display: block;
+    padding: 3px 20px;
+    background: #a87c4f;
+    text-align: center;
+    box-sizing: border-box;
+    color: #c92227;
+    font-size: 30px;
+    margin-top: 1px;
+}
+
+.INFO {
+    display: none;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0.5em 0.5em 0.5em;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 50px;
+}
+.INFO{}
+.INFO li {
+    display: block;
+    padding: 20px;
+}
+.INFO li:hover{
+    display: block;
+    background: #eee;
+}
+.INFO li a{
+    text-decoration: none;
+    color: red;
+}
+}
+/************************************++++++++++++++++++++++++++++++++++**********************************++++++++++++++++++*********/
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***************************************/
+.star-rating {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #5f84f2;
+    background-image: url(https://via.placeholder.com/90x90);
+    background-repeat: no-repeat;
+    width: 18%;
+    height: 26px;
+}
+.star-rating .fa-star {
+    color: rgba(100, 0, 0, 0.2);
+}
+
+
+.star-rating .fa-star:hover{
+    color: white;
+}
+
+blockquote{margin-top:0px auto;text-align:center;}
+
+article{margin:10px auto; display: flex; flex-wrap: wrap; justify-content: center;}
+form.cartebleu {
+    font-size: 18px;
+    margin: 1px auto;
+    border: solid 1px;
+    padding: 21px;
+}
+.center{text-align: center; margin:0 auto;width: 70%;}
+ textarea {
+    width: 100%;
+    height: 400px;
+    margin: 10px auto;
+    vertical-align: middle;
+}
+button{width: 30%; padding: 10px; margin:10px auto;}
+.avis img {
+  width:7em;
+  text-align:left;
+  margin: 10px auto;
+  border:0.3em solid black;
+  border-radius:50%;
+}
+
+a.text{display:block; }
+.text p{
+text-align: center;
+width: 150px;
+  display:inline-block;
+}
+p.text{
+    width: 150px;
+}
+
+div.footer {
+    background-color: grey;
+    text-align: center;
+}
+.footer a{margin: 5px}
+
+.img-logo { width: 100px;}
+
+/*my map***************************/
+#possibilities {
+    text-align:center;
+    display: flex;
+    background-color: #a87c4f;
+    padding: 1px 0;
+    margin: 7em auto 7em auto;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.parent p {
+    background-color: #a87c4f;
+    text-align: center;
+    font-size: 17px;
+    color:black;
+    margin: 0;
+    }
+ .map{
+    box-shadow: rgba(0, 0, 0, 0.2) 0.5em 0.5em 0.5em;
+    max-width: 16em;
+    font-size: 217%;
+    margin: 10px auto;
+    background-size: contain;
+}
+
+/*fin map*/
+/*newslettes*/
+.newsletter {
+    width: 397px;
+    min-height: 247px;
+    overflow: hidden;
+}
+.article h5 {
+    font-size: 20px;
+    color: #9b0505;
+    border-bottom: 1px solid white;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+ form.cartebleu input{
+    border-radius : 7px;
+}
+form.mymail input {
+    height: 34px;
+    line-height: 34px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 50px;
+}
+form.mymail{
+    font-size: 18px;
+    border: solid 1px;
+}
+input.btn-submit:hover{
+    background-color: orange;
+    color: white;
+}
+/*///////////////////////////////////-----//*/
+
+.list-inline .fab{
+    width: 50px;
+    color:#eee;
+    letter-spacing: 10px;
+}
+div.wrapper ul{padding: 0;}
+.article {
+    text-align: end;
+    color: #e1e1e1;
+}
+.exemp{
+    min-height: 280px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+.autre{
+      min-height: 280px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+.gry {
+    min-height: 280px;
+    min-width: 397px;
+    margin: 0 auto;
+}
+.autre {
+    text-align: center;
+    padding: 5px;
+    text-align: center;
+}
+/*finde my footer***************************/
+
+aside {
+    min-height: 100%;
+}
+
+.col1{  order: 1;}
+.col2{
+		background-color: #fff;
+		width: 100%;
+		min-height: 400px;
+		order: 2;
+	}
+
+.col3 {
+    order: 3;
+    width: 685px;
+    min-height: 100%;
+    margin: 22px auto;
+}
+	
+.col4{order: 3;}
+
+}

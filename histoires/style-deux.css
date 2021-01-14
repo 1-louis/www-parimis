@@ -1,0 +1,119 @@
+.media{
+	height: 100%;
+  margin: 10px auto;
+  font-size:16px ;
+  font-family: "Lato", sans-serif;
+  font-weight:400 ;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg1,.pimg2,.pimg3{
+   position: relative;
+   opacity: 0.70;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment:fixed ;
+ }
+.pimg1{
+  background-image: url('img/img1.jpg');
+  min-height: 400px;
+}
+
+.pimg2{
+  background-image: url('img/img2.jpg');
+  min-height: 400px;
+}
+.pimg3{
+  background-image: url('img/pexels-photo-.jpeg');
+  min-height: 400px;
+}
+.section{
+  text-align: center;
+  padding: 50px 80px;
+  color: #666;
+}
+
+.section-light{
+  transition: .4s;
+  background-color: #cbcbcb;
+  
+}
+.section p{color: #666;}
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext{
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  letter-spacing: 27px;
+  text-transform: uppercase;
+}
+
+.ptext .border{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+.ptext .border.trans{
+  background-color: rgba(0,0,0,0.3);
+}
+.img:hover{
+	opacity: 1;
+    transform: scale(1.1);
+    transition: 4s ;
+}
+
+@media screen and (max-width:450px) {
+  .media{
+  height: 100%;
+  margin: 10px auto;
+  font-family: "Lato", sans-serif;
+  font-weight:400 ;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.section {
+    text-align: center;
+    color: #666;
+    padding: 0;
+}
+.pimg1,.pimg2,.pimg3{
+   position: relative;
+   opacity: 0.70;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment:fixed ;
+ }
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 6px;
+}
+.ptext .border.trans{
+  background-color: rgba(0,0,0,0.3);
+}
+.img:hover{
+    opacity: 1;
+    transform: scale(1.19);
+    transition: 4s ;
+}
+
+}
